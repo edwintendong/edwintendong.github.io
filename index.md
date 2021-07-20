@@ -1,4 +1,3 @@
-## Welcome!
 
 Hey, I’m Edwine Tendong, a PhD Candidate in Condensed Matter Physics and Material Sciences at S N Bose National Centre for basic Sciences, Kolkata, India 
 
