@@ -1,0 +1,43 @@
+    .code-frame {
+      font-family: monospace;
+      white-space: pre-wrap;
+      overflow-x: auto;
+      max-width: 100%;
+      font-family: monospace;
+      white-space: pre-wrap;
+      overflow-x: auto;
+    }
+
+    .code-frame pre {
+      margin: 0;
+    }
+
+    .code-frame pre code {
+      color: #444;
+    }
+
+    .code-frame .keyword {
+      color: #1c00cf;
+      font-weight: bold;
+    }
+
+    .code-frame .string {
+      color: #8b7000;
+    }
+
+    .code-frame .number,
+    .code-frame .variable {
+      color: #008080;
+    }
+
+    .code-frame .comment {
+      color: #909090;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      .code-frame {
+        padding: 10px;
+      }
+    }
+

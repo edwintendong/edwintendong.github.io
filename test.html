@@ -1,0 +1,22 @@
+
+    <link rel="stylesheet" href="code_highlight.css" />
+
+    <div class="code-frame">
+    <pre><code>
+    <span class="keyword">import</span> <span class="namespace">random</span>
+    <span class="comment"># Generate a random number between 1 and 100</span>
+    <span class="variable">random_number</span> = <span class="namespace">random</span>.<span class="function">randint</span>(<span     
+    class="number">1</span>, <span class="number">100</span>)
+    <span class="comment"># Ask the user to guess the number</span>
+    <span class="variable">guess</span> = <span class="builtin">int</span>(<span class="function">input</span>(<span class="string">"Guess the 
+    number (1-100): "</span>))
+    <span class="comment"># Check the guess and provide feedback</span>
+    <span class="keyword">if</span> <span class="variable">guess</span> == <span class="variable">random_number</span>:
+    <span class="function">print</span>(<span class="string">"Correct! You guessed the number."</span>)
+    <span class="keyword">elif</span> <span class="variable">guess</span> &lt; <span class="variable">random_number</span>:
+    <span class="function">print</span>(<span class="string">"Too low. Try again."</span>)
+    <span class="keyword">else</span>:
+    <span class="function">print</span>(<span class="string">"Too high. Try again."</span>)
+    </code></pre>
+    </div>
+
