@@ -1,3 +1,5 @@
+/* Importing Google font - Open Sans */
+
 
 * {
   margin: 0;
@@ -417,4 +419,39 @@ a:hover {
     background-color: var(--primary-color);
     color: var(--text-light);
     text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------- */
+/* 7. Publications Page (publications.html) Specific Styles */
+/* ------------------------------------------------------------------------- */
+
+.publications-section {
+    padding-top: 100px;
+}
+
+.pub-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pub-list li {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: var(--background-light);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.pub-list li .pub-title {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pub-list li .pub-journal {
+    font-style: italic;
+    color: #666;
+    display: block;
+    margin-top: 5px;
 }
